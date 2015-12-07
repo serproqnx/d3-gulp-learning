@@ -61,15 +61,15 @@ $(function() {
 
   var bardata = [];
 
-  for (var i = 0; i < 50; i++) {
-    bardata.push(Math.round(Math.random()*100)+20);
+  for (var i = 0; i < 30; i++) {
+    bardata.push(Math.round(Math.random()*200)+20);
   }
 
   bardata.sort(function compareNumbers(a,b) {
     return a-b;
   });
 
-  var height = 400,
+  var height = 900,
       width = 600,
       barWidth = 50,
       barOffset = 5;
